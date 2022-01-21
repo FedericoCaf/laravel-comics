@@ -1,0 +1,62 @@
+footer{
+
+   .footer-top{
+     background-image:url("../img/footer-bg.jpg");
+     background-position: center;
+     background-size: cover;
+     height: 300px;
+     overflow: hidden;
+      ul{
+        padding-top: 25px;
+        li{
+          margin: 5px;
+        }
+      }
+
+      ul li:first-child{
+        padding-bottom: 10px;
+        color: white;
+      }
+
+   }
+   .footer-bottom{
+     height: 80px;
+     background-color: #303030;
+   }
+}
+
+.footer-list{
+  display: inline-block;
+  padding-right: 20px;
+  color:#7C7C7C;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.sign-up button{
+  padding: 12px;
+  border: 2px solid $primary-color;
+  background-color: #303030;
+  color: white;
+   cursor: pointer;
+}
+
+.social{
+  color: white;
+   .social-icon{
+     padding-left: 10px;
+     cursor: pointer;
+   }
+}
+
+.footer-img-right{
+  position: relative;
+  width: 560px;
+  // height: 560px;
+}
+
+.footer-img-right img{
+  position: absolute;
+  top: -140px;
+  right: 0;
+}

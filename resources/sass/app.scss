@@ -1,4 +1,11 @@
 //
-body{
-  background-color: aqua;
-}
+@import 'partials/vars';
+@import 'partials/utilities';
+@import 'partials/mixins';
+@import 'partials/generals';
+
+@import 'partials/main';
+@import 'partials/header';
+@import 'partials/shopSection';
+@import 'partials/footer';
+

@@ -1,3 +1,204 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);.fc-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.fc-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc-flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fc-flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.fc-flex-between-align-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: aqua;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  background-color: #1C1C1C;
+  color: white;
+}
+main .fc-button {
+  text-align: center;
+  padding: 15px;
+}
+main .fc-button button {
+  width: 150px;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+  background-color: #0282F9;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 12px;
+}
+main .button-container-series {
+  margin-top: -55px;
+}
+main .button-series {
+  padding: 10px;
+  background-color: #0282F9;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.jumbo {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+header {
+  height: 100px;
+  min-width: 800px;
+}
+header li {
+  height: 100px;
+  border-bottom: 3px solid transparent;
+}
+header li a {
+  color: black;
+}
+
+.logo-header {
+  height: 100px;
+  width: 100px;
+  padding: 15px;
+}
+
+.menu-header {
+  height: 100px;
+  width: 700px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.active-text {
+  color: #0282F9 !important;
+}
+
+.active-border {
+  border-bottom: 3px solid #0282F9;
+}
+
+.container-shop {
+  height: 120px;
+  background-color: #0282F9;
+}
+
+.icon-shop {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+li span {
+  color: white;
+}
+
+footer .footer-top {
+  background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+}
+footer .footer-top ul {
+  padding-top: 25px;
+}
+footer .footer-top ul li {
+  margin: 5px;
+}
+footer .footer-top ul li:first-child {
+  padding-bottom: 10px;
+  color: white;
+}
+footer .footer-bottom {
+  height: 80px;
+  background-color: #303030;
+}
+
+.footer-list {
+  display: inline-block;
+  padding-right: 20px;
+  color: #7C7C7C;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.sign-up button {
+  padding: 12px;
+  border: 2px solid #0282F9;
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+}
+
+.social {
+  color: white;
+}
+.social .social-icon {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.footer-img-right {
+  position: relative;
+  width: 560px;
+}
+
+.footer-img-right img {
+  position: absolute;
+  top: -140px;
+  right: 0;
 }

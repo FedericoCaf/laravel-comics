@@ -1,0 +1,35 @@
+.fc-container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.fc-flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc-flex-around{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.fc-flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
+.fc-flex-between-align-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  cursor: pointer;
+}
+
+li a{
+  text-decoration: none;
+}
