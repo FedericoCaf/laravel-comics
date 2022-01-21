@@ -50,7 +50,7 @@
      </div>
 
      <div class="footer-img-right">
-         <img src="../assets/img/dc-logo-bg.png" alt="">
+         <img src=" {{ asset('img/dc-logo-bg.png') }} " alt="">
      </div>
     </div>
      
