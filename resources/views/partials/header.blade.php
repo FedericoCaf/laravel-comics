@@ -8,36 +8,67 @@
   <div class="menu-header">
     <nav>
        <ul class="fc-flex-between-align-center">
-         <li class="fc-flex-align-center">
-            <a :class="" href=" {{ route('characters')}} ">CHARACTERS</a>
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'characters') ? 'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'characters') ? 'active-text' : '' }}" 
+               href=" {{ route('characters')}} ">CHARACTERS</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('comics')}}">COMICS</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'comics') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'comics') ?
+            'active-text' : '' }}" href="{{ route('comics')}}">COMICS</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('movies')}}">MOVIES</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'movies') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'movies') ?
+            'active-text' : '' }}" href="{{ route('movies')}}">MOVIES</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('tv')}}">TV</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'tv') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'tv') ?
+            'active-text' : '' }}" href="{{ route('tv')}}">TV</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('games')}}">GAMES</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'games') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'games') ?
+            'active-text' : '' }}" href="{{ route('games')}}">GAMES</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('collectibles')}}">COLLECTIBLES</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'collectibles') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'collectibles') ?
+            'active-text' : '' }}" href="{{ route('collectibles')}}">COLLECTIBLES</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('videos')}}">VIDEOS</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'videos') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'videos') ?
+            'active-text' : '' }}" href="{{ route('videos')}}">VIDEOS</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('fans')}}">FANS</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'fans') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'fans') ?
+            'active-text' : '' }}" href="{{ route('fans')}}">FANS</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('news')}}">NEWS</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'news') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'news') ?
+            'active-text' : '' }}" href="{{ route('news')}}">NEWS</a>
          </li>
-         <li class="fc-flex-align-center">
-            <a :class="" href="{{ route('shop')}}">SHOP</a>
+
+         <li class="fc-flex-align-center {{ (Route::currentRouteName() === 'shop') ?
+          'active-border' : '' }} ">
+            <a class="{{ (Route::currentRouteName() === 'shop') ?
+            'active-text' : '' }}" href="{{ route('shop')}}">SHOP</a>
          </li>
+
+         
+
        </ul>
    </nav>
   </div>

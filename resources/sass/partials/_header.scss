@@ -9,25 +9,27 @@ header{
         color: black;
       }
   }
+
+  .logo-header{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+  }
+  
+  .menu-header{
+    height: 100px;
+    width: 700px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .active-text{
+    color: $primary-color !important;
+  }
+  
+  .active-border{
+    border-bottom: 3px solid $primary-color;
+  }
+  
 }
 
-.logo-header{
-  height: 100px;
-  width: 100px;
-  padding: 15px;
-}
-
-.menu-header{
-  height: 100px;
-  width: 700px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.active-text{
-  color: $primary-color !important;
-}
-
-.active-border{
-  border-bottom: 3px solid $primary-color;
-}

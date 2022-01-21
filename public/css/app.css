@@ -107,25 +107,21 @@ header li {
 header li a {
   color: black;
 }
-
-.logo-header {
+header .logo-header {
   height: 100px;
   width: 100px;
   padding: 15px;
 }
-
-.menu-header {
+header .menu-header {
   height: 100px;
   width: 700px;
   font-size: 13px;
   font-weight: bold;
 }
-
-.active-text {
+header .active-text {
   color: #0282F9 !important;
 }
-
-.active-border {
+header .active-border {
   border-bottom: 3px solid #0282F9;
 }
 
